@@ -6,7 +6,7 @@ public class GreetingBusiness {
     public Greeting greeting(String message, String auteur) {
         Greeting grt = new Greeting();
         grt.setAuteur(auteur);
-        grt.setMessage("Hello" + message);
+        grt.setMessage("DOSI DEPLOY APP "  + message);
         return grt;
     }
 
